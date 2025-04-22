@@ -1,12 +1,48 @@
-# React + Vite
+# 📸 Picsum Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple beginner React app that fetches and displays random images using the [Picsum API](https://picsum.photos/). Users can click a button to load a beautiful gallery of images with author names.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches image data from the Picsum API.
+- Responsive grid layout using Tailwind CSS.
+- Clean UI with hover effects and transitions.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Axios
+- Tailwind CSS
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/picsum-gallery.git
+   cd picsum-gallery
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the app:
+   ```bash
+   npm start
+   ```
+
+## 💡 Usage
+
+- Click the **"Get Data"** button to load image cards from the API.
+
+## 📁 Folder Structure
+
+```
+App.js        → Main component with image fetch and display
+```
+
+## 📸 API Source
+
+Data is fetched from [https://picsum.photos/v2/list](https://picsum.photos/v2/list)
+
